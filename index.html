@@ -1,0 +1,81 @@
+<?php  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User_info</title>
+</head>
+<body>
+    <form  action="action.php" method="POST" auto_complete="off">
+    <table border="1" align="center" width="400" bgcolor="#CCCCCC" >
+<caption>Registration form</caption>
+<tr>
+    <th>user_info</th>
+</tr>
+<tr>
+<th>Enter your first name</th>
+<td><input type="text" name="fn" id="fn1" maxlength="10" title="enter your first name" placeholder="enter your first name" required/></td>
+</tr>
+<tr>
+<th>Enter your last name</th>
+<td><input type="text"/></td>
+</tr>
+<tr>
+    <th>Enter your email</th>
+    <td><input type="email"/></td>
+    </tr>
+    <tr>
+        <th>Select your DOB</th>
+        <td><input type="date"/></td>
+        </tr>
+<tr>
+    <tr>
+        <th>Enter your mobile</th>
+        <td><input type="number"/></td>
+        </tr>
+        <tr>
+            <th>Designation</th>
+            <td>
+                <select name="Designation" id="city">
+                    <option value="ComputerProgrammer">Computer Programmer</option>
+                    <option value="Web Developer">Web Developer</option>
+                    <option value="Computer Support Specialist">Computer Support Specialist</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Select your gender</th>
+            <td>
+            male<input type="radio" name="g" value="m"/>
+            female<input type="radio" name="g" value="f"/>
+            </td>
+            </tr>
+            
+
+
+
+<tr>
+<th>Select your hobbies</th>
+<td>
+hobby1<input type="checkbox" name="x[]" value="h"/>
+hobby2<input type="checkbox" name="x[]" value="h2"/>
+hobby3<input type="checkbox" name="x[]" value="h3"/>
+hobby4<input type="checkbox" name="x[]" value="h4"/>
+</td>
+</tr>
+
+<tr>
+    <th> <label for="submit">submit:</label></th>
+    <td>
+        <input type="submit" value="Submit">
+    </td>
+</tr>
+
+</table>
+
+</form>
+</body>
+</html>
